@@ -1,6 +1,5 @@
 ideas = {
 
-    country = { 
 
                 second_in_command = {
 	    arizona_sic_tim_foley = {
@@ -17,5 +16,7 @@ ideas = {
 			
 			traits = { power_hungry_demagogue }			
 		}
+				}
+	}
              
                  
