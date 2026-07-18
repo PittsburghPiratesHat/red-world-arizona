@@ -100,9 +100,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Richard Mack"
-	picture = "Portrait_ARI_Richard_Mack.dds"
-	ideology = nationalist_ideology
+	name = "Joe Arpaio"
+	picture = "Portrait_ARI_Joe_Arpaio.dds"
+	ideology = arpaio_nationalism
 }
 
 create_country_leader = {

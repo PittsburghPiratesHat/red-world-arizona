@@ -136,7 +136,7 @@ id = redworldarizona.3
 #Focus for Joe
 	focus = {
 		id = ARI_the_rattle
-		icon = GFX_goal_support_democracy
+		icon = Rattle_Chains
 		x = 55
 		y = 0
 		cost = 10
@@ -144,11 +144,17 @@ id = redworldarizona.3
 		ai_will_do = {
 			factor = 1
 		}
+		available = {
+
+has_government= nationalist
+
+has_country_flag = ARI_arpaio_in_charge
+		}
 	}
 
 	focus = {
 		id = ARI_pink_undies_and_tent_cities
-		icon = GFX_goal_support_democracy
+		icon = pink_undies
 		prerequisite = { focus = ARI_the_rattle }
 		x = 55
 		y = 1
@@ -161,7 +167,7 @@ id = redworldarizona.3
 
 	focus = {
 		id = ARI_a_real
-		icon = GFX_goal_support_democracy
+		icon = tent_city_camp
 		prerequisite = { focus = ARI_pink_undies_and_tent_cities }
 		x = 55
 		y = 2
@@ -174,7 +180,7 @@ id = redworldarizona.3
 
 	focus = {
 		id = ARI_silence
-		icon = GFX_goal_support_democracy
+		icon = silencing_dissent
 		prerequisite = { focus = ARI_a_real }
 		x = 55
 		y = 3
@@ -187,7 +193,7 @@ id = redworldarizona.3
 
 	focus = {
 		id = ARI_the_chain_gangs
-		icon = GFX_goal_support_democracy
+		icon = chain_gang
 		prerequisite = { focus = ARI_the_rattle }
 		x = 57
 		y = 1
@@ -200,7 +206,7 @@ id = redworldarizona.3
 
 	focus = {
 		id = ARI_corruption
-		icon = GFX_goal_support_democracy
+		icon = allow_corruption
 		prerequisite = { focus = ARI_the_chain_gangs }
 		x = 57
 		y = 2
@@ -213,7 +219,7 @@ id = redworldarizona.3
 
 	focus = {
 		id = ARI_arpaio_ultranationalism
-		icon = GFX_goal_support_democracy
+		icon = arpaio_nationalism_focus
 		prerequisite = { focus = ARI_corruption }
 		x = 57
 		y = 3
@@ -226,7 +232,7 @@ id = redworldarizona.3
 
 	focus = {
 		id = ARI_a_blind_eye
-		icon = GFX_goal_support_democracy
+		icon = blind_eye
 		prerequisite = { focus = ARI_the_rattle}
 		x = 53
 		y = 1
@@ -239,7 +245,7 @@ id = redworldarizona.3
 
 	focus = {
 		id = ARI_work_with_the
-		icon = GFX_goal_support_democracy
+		icon = border_patrol_work
 		prerequisite = { focus = ARI_a_blind_eye }
 		x = 53
 		y = 2
@@ -252,7 +258,7 @@ id = redworldarizona.3
 
 	focus = {
 		id = ARI_from_the_posse
-		icon = GFX_goal_support_democracy
+		icon = immigration_posse
 		prerequisite = { focus = ARI_work_with_the}
 		x = 53
 		y = 3
@@ -265,7 +271,7 @@ id = redworldarizona.3
 
 	focus = {
 		id = ARI_the_world
-		icon = GFX_goal_support_democracy
+		icon = Tough_sheriff
 		mutually_exclusive = {
 			focus = ARI_sealing
 		}
@@ -283,7 +289,7 @@ id = redworldarizona.3
 
 	focus = {
 		id = ARI_sealing
-		icon = GFX_goal_support_democracy
+		icon = seal_joe_border
 		mutually_exclusive = {
 			focus = ARI_the_world
 		}
@@ -292,6 +298,140 @@ id = redworldarizona.3
 		prerequisite = { focus = ARI_from_the_posse}
 		x = 56
 		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#commie focus 
+
+	focus = {
+		id = ARI_lorenzo
+		icon = GFX_goal_support_democracy
+		x = 50
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_found_the_arizona_politburo
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_lorenzo }
+		x = 50
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_formalize_the_party
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_found_the_arizona_politburo }
+		x = 50
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_legacy_chavez
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_lorenzo }
+		x = 52
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_the_arizonan_red_army
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_legacy_chavez }
+		x = 52
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_purge_reactionaries
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_lorenzo }
+		x = 48
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_the_scourge_of_racism
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_purge_reactionaries }
+		x = 48
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_death_of_lorenzo
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_the_scourge_of_racism }
+		prerequisite = { focus = ARI_the_arizonan_red_army }
+		prerequisite = { focus = ARI_formalize_the_party }
+		x = 50
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#sinema focus 
+
+	focus = {
+		id = ARI_sinema_won
+		icon = GFX_goal_support_democracy
+		x = 25
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_concessions_to_the_communists
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_sinema_won }
+		x = 30
+		y = 8
 		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
@@ -311,6 +451,7 @@ id = redworldarizona.3
 			factor = 1
 		}
 	}
+	
 
 	focus = {
 		id = ARI_in_the_footsteps_of_goldwater
@@ -712,6 +853,207 @@ has_country_flag = ARI_hayworth
 	}
 
 	focus = {
+		id = ARI_galvanize_radical
+		icon = GFX_focus_generic_strike_at_democracy1
+		prerequisite = { focus = ARI_mccarthy }
+		x = 65
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+has_government= nationalist
+
+has_country_flag = ARI_hayworth
+		}
+	}
+
+		focus = {
+		id = ARI_mandatory_work
+		icon = GFX_focus_generic_strike_at_democracy1
+		prerequisite = { focus = ARI_galvanize_radical }
+		x = 65
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+has_government= nationalist
+
+has_country_flag = ARI_hayworth
+		}
+	}
+
+	focus = {
+		id = ARI_keep_democracy
+		icon = GFX_focus_generic_strike_at_democracy1
+		prerequisite = { focus = ARI_propaganda }
+		prerequisite = { focus = ARI_mandatory_work }
+		prerequisite = { focus = ARI_fate_of_the_rival }
+		mutually_exclusive = {
+			focus = ARI_hayworths_america
+		}
+		x = 64
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+has_government= nationalist
+
+has_country_flag = ARI_hayworth
+		}
+	}
+
+	focus = {
+		id = ARI_hayworths_america
+		icon = GFX_focus_generic_strike_at_democracy1
+		prerequisite = { focus = ARI_propaganda }
+		prerequisite = { focus = ARI_mandatory_work }
+		prerequisite = { focus = ARI_fate_of_the_rival }
+		mutually_exclusive = {
+			focus = ARI_keep
+		}
+		x = 66
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+has_government= nationalist
+
+has_country_flag = ARI_hayworth
+		}
+	}
+
+
+	focus = {
+		id = ARI_fix_the_constitution
+		icon = GFX_focus_generic_strike_at_democracy1
+		prerequisite = { focus = ARI_hayworth_held_on }
+		x = 63
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+has_government= nationalist
+
+has_country_flag = ARI_hayworth
+		}
+	}
+
+	focus = {
+		id = ARI_rewrite_history
+		icon = GFX_focus_generic_strike_at_democracy1
+		prerequisite = { focus = ARI_fix_the_constitution }
+		x = 63
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+has_government= nationalist
+
+has_country_flag = ARI_hayworth
+		}
+	}
+
+	focus = {
+		id = ARI_propaganda
+		icon = GFX_focus_generic_strike_at_democracy1
+		prerequisite = { focus = ARI_rewrite_history }
+		x = 63
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+has_government= nationalist
+
+has_country_flag = ARI_hayworth
+		}
+	}
+
+	focus = {
+		id = ARI_stamp_out
+		icon = GFX_focus_generic_strike_at_democracy1
+		prerequisite = { focus = ARI_hayworth_held_on }
+		x = 67
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+has_government= nationalist
+
+has_country_flag = ARI_hayworth
+		}
+	}
+
+	focus = {
+		id = ARI_americanization
+		icon = GFX_focus_generic_strike_at_democracy1
+		prerequisite = { focus = ARI_stamp_out }
+		x = 67
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+has_government= nationalist
+
+has_country_flag = ARI_hayworth
+		}
+	}
+
+	focus = {
+		id = ARI_fate_of_the_rival
+		icon = GFX_focus_generic_strike_at_democracy1
+		prerequisite = { focus = ARI_americanization }
+		x = 67
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+has_government= nationalist
+
+has_country_flag = ARI_hayworth
+		}
+	}
+
+	focus = {
 		id = ARI_purge_mccain
 		icon = GFX_focus_generic_strike_at_democracy1
 		prerequisite = { focus = ARI_hayworth }
@@ -753,6 +1095,9 @@ has_country_flag = ARI_hayworth
 		id = ARI_a_meeting_with_arpaio
 		icon = GFX_focus_generic_strike_at_democracy1
 		prerequisite = { focus = ARI_hayworth }
+		mutually_exclusive = {
+			focus = ARI_sideline_arpaio
+		}
 		x = 72
 		y = 1
 		cost = 10
@@ -791,6 +1136,9 @@ has_country_flag = ARI_hayworth
 		id = ARI_sideline_arpaio
 		icon = GFX_focus_generic_strike_at_democracy1
 		prerequisite = { focus = ARI_hayworth }
+		mutually_exclusive = {
+			focus = ARI_a_meeting_with_arpaio
+		}
 		x = 68
 		y = 1
 		cost = 10
@@ -848,7 +1196,7 @@ has_country_flag = ARI_ready_or_not
 	}
 
 		focus = {
-		id = ARI_expel_non_whites
+		id = ARI_segregation
 		icon = GFX_goal_support_democracy
 		prerequisite = { focus = ARI_ready_or_not_here_they_come }
 		x = 85
@@ -874,6 +1222,32 @@ has_country_flag = ARI_ready_or_not
 	}
 
 	focus = {
+		id = ARI_purge_all_communists
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_in_the_shadow }
+		x = 87
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_coopt_the_tea_party
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_purge_all_communists }
+		x = 87
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
 		id = ARI_reap_the_border
 		icon = GFX_goal_support_democracy
 		prerequisite = { focus = ARI_ready_or_not_here_they_come }
@@ -886,20 +1260,19 @@ has_country_flag = ARI_ready_or_not
 		}
 	}
 
-	focus = {
-		id = ARI_liqidate
-		icon = GFX_goal_support_democracy
-		prerequisite = { focus = ARI_stamp_out_communism}
-		prerequisite = { focus = ARI_establish_an_arizonian}
-		prerequisite = { focus = ARI_a_friend_to_the}
-		x = 35
-		y = 5
+#reality
+focus = {
+		id = ARI_our_terrible_reality
+		icon = GFX_goal_generic_major_war
+		x = 10
+		y = 25
 		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
 		}
 	}
+
 
 	#Focus for The National Guard of Arizona
 	focus = {
@@ -919,6 +1292,86 @@ has_country_flag = ARI_ready_or_not
 			prerequisite = { focus = ARI_the_national_guard_of_arizona }
 		x = 10
 		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+	}
+
+	focus = {
+		id = ARI_civilian_gun_owners
+		icon = GFX_focus_generic_strike_at_democracy1
+			prerequisite = { focus = ARI_loot }
+		x = 10
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+	}
+
+	focus = {
+		id = ARI_seize_civilian_goods
+		icon = GFX_focus_generic_strike_at_democracy1
+			prerequisite = { focus = ARI_civilian_gun_owners }
+		x = 8
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+	}
+
+	focus = {
+		id = ARI_back_to_basics
+		icon = GFX_focus_generic_strike_at_democracy1
+			prerequisite = { focus = ARI_seize_civilian_goods }
+		x = 8
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+	}
+
+	focus = {
+		id = ARI_invite
+		icon = GFX_focus_generic_strike_at_democracy1
+			prerequisite = { focus = ARI_loot }
+		x = 10
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+	}
+
+	focus = {
+		id = ARI_recruitment_campaigns
+		icon = GFX_focus_generic_strike_at_democracy1
+			prerequisite = { focus = ARI_loot }
+		x = 12
+		y = 7
 		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
