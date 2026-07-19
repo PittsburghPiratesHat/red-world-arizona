@@ -25,24 +25,24 @@ characters={
 			id=-1
 		}
 	}
-	ARI_council_of_princes={
-		name="Council of Princes"
+	ARI_kevin_baugh={
+		name="Kevin Baugh"
 		portraits={
 			civilian={
-				large="gfx/leaders/ARI/Portrait_ARI_Princely_Council.dds"
+				large="gfx/leaders/ARI/Portrait_ARI_Kevin_Baugh.dds"
 			}
 		}
 		country_leader={
-			ideology=regency_monarchist
+			ideology=absolute_monarchist
 			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	ARI_susan_rosenberg={
-		name="Susan Rosenberg"
+	ARI_aron_ra={
+		name="Aron Ra"
 		portraits={
 			civilian={
-				large="gfx/leaders/ARI/Portrait_ARI_Susan_Rosenberg.dds"
+				large="gfx/leaders/ARI/Portrait_ARI_Aron_Ra.dds"
 			}
 		}
 		country_leader={
@@ -51,11 +51,11 @@ characters={
 			id=-1
 		}
 	}
-	ARI_john_mccain={
-		name="John McCain"
+	ARI_jd_hayworth={
+		name="JD Hayworth"
 		portraits={
 			civilian={
-				large="gfx/leaders/ARI/Portrait_ARI_John_McCain.dds"
+				large="gfx/leaders/ARI/Portrait_ARI_JD_Hayworth.dds"
 			}
 		}
 		country_leader={
@@ -64,15 +64,15 @@ characters={
 			id=-1
 		}
 	}
-	ARI_matt_salmon={
-		name="Matt Salmon"
+	ARI_craig_columbus={
+		name="Craig Columbus"
 		portraits={
 			civilian={
-				large="gfx/leaders/ARI/Portrait_ARI_Matt_Salmon.dds"
+				large="gfx/leaders/ARI/Portrait_ARI_Craig_Columbus.dds"
 			}
 		}
 		country_leader={
-			ideology=centrist_populist
+			ideology=liberal_conservative
 			expire="1.1.1.1"
 			id=-1
 		}
@@ -91,11 +91,11 @@ characters={
 			id=-1
 		}
 	}
-	ARI_rachel_maddow={
-		name="Rachel Maddow"
+	ARI_kyrsten_sinema={
+		name="Kyrsten Sinema"
 		portraits={
 			civilian={
-				large="gfx/leaders/ARI/Portrait_ARI_Rachel_Maddow.dds"
+				large="gfx/leaders/ARI/Portrait_ARI_Kyrsten_Sinema.dds"
 			}
 		}
 		country_leader={
@@ -117,24 +117,24 @@ characters={
 			id=-1
 		}
 	}
-	ARI_cornel_west={
-		name="Cornel West"
+	ARI_james_mclaughlin={
+		name="James McLaughlin"
 		portraits={
 			civilian={
-				large="gfx/leaders/ARI/Portrait_ARI_Cornel_West.dds"
+				large="gfx/leaders/ARI/Portrait_ARI_James_McLaughlin.dds"
 			}
 		}
 		country_leader={
-			ideology=christian_communism
+			ideology=syndicalism
 			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	ARI_kyrsten_sinema={
-		name="Kyrsten Sinema"
+	ARI_lorenzo_torrez={
+		name="Lorenzo Torrez"
 		portraits={
 			civilian={
-				large="gfx/leaders/ARI/Portrait_ARI_Kyrsten_Sinema.dds"
+				large="gfx/leaders/ARI/Portrait_ARI_Lorenzo_Torrez.dds"
 			}
 		}
 		country_leader={

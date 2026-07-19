@@ -412,6 +412,45 @@ has_country_flag = ARI_arpaio_in_charge
 		}
 	}
 
+	focus = {
+		id = ARI_comrade_bernick
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_death_of_lorenzo }
+		x = 50
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_comrade_james
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_death_of_lorenzo }
+		x = 45
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_comrade_baker
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_death_of_lorenzo }
+		x = 55
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	#sinema focus 
 
 	focus = {
@@ -439,11 +478,156 @@ has_country_flag = ARI_arpaio_in_charge
 		}
 	}
 
+	#Focus for Baugh
+	focus = {
+		id = ARI_molossia_in_exile
+		icon = GFX_goal_support_democracy
+		x = 40
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_campaign
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_molossia_in_exile }
+		x = 42
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_invite_monarchist_exiles
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_campaign }
+		x = 42
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_a_molossian_constitution
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_campaign }
+		x = 42
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_discard_
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_molossia_in_exile }
+		x = 38
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_endear
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_discard_ }
+		x = 38
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_forming_a_proper_cabinent
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_endear }
+		x = 38
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_silence_naysayrs
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_molossia_in_exile }
+		x = 40
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_ally_with
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_silence_naysayrs }
+		x = 40
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_discredit
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_ally_with }
+		x = 40
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_a_micronation_no_more
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_discredit }
+		prerequisite = { focus = ARI_a_molossian_constitution }
+		prerequisite = { focus = ARI_forming_a_proper_cabinent }
+		x = 40
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	#Focus for President Craig
 	focus = {
 		id = ARI_president_craig
 		icon = GFX_goal_support_democracy
-		x = 30
+		x = 25
 		y = 0
 		cost = 10
 		available_if_capitulated = yes
@@ -609,151 +793,6 @@ has_country_flag = ARI_arpaio_in_charge
 		prerequisite = {  focus = ARI_ensure_democracy_remains }
 		prerequisite = {  focus = ARI_endorsed_by }
 		x = 25
-		y = 5
-		cost = 10
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	focus = {
-		id = ARI_the_new_business_plot
-		icon = GFX_goal_support_democracy
-		prerequisite = { focus = ARI_president_craig }
-		x = 35
-		y = 1
-		cost = 10
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	focus = {
-		id = ARI_break_the_facade
-		icon = GFX_goal_support_democracy
-		prerequisite = { focus = ARI_the_new_business_plot }
-		x = 37
-		y = 2
-		cost = 10
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	focus = {
-		id = ARI_hunt_hayworth
-		icon = GFX_goal_support_democracy
-		prerequisite = { focus = ARI_break_the_facade }
-		x = 37
-		y = 3
-		cost = 10
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	focus = {
-		id = ARI_a_friend_to_the
-		icon = GFX_goal_support_democracy
-		prerequisite = { focus = ARI_hunt_hayworth }
-		x = 37
-		y = 4
-		cost = 10
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	focus = {
-		id = ARI_work_with
-		icon = GFX_goal_support_democracy
-		prerequisite = { focus = ARI_the_new_business_plot }
-		x = 33
-		y = 2
-		cost = 10
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	focus = {
-		id = ARI_catholic_supremacy
-		icon = GFX_goal_support_democracy
-		prerequisite = { focus = ARI_the_new_business_plot }
-		x = 33
-		y = 3
-		cost = 10
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	focus = {
-		id = ARI_establish_an_arizonian
-		icon = GFX_goal_support_democracy
-		prerequisite = { focus = ARI_the_new_business_plot }
-		x = 33
-		y = 4
-		cost = 10
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	focus = {
-		id = ARI_meet_with_other
-		icon = GFX_goal_support_democracy
-		prerequisite = { focus = ARI_the_new_business_plot }
-		x = 35
-		y = 2
-		cost = 10
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	focus = {
-		id = ARI_velvet_glove_policies
-		icon = GFX_goal_support_democracy
-		prerequisite = { focus = ARI_meet_with_other }
-		x = 35
-		y = 3
-		cost = 10
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	focus = {
-		id = ARI_stamp_out_communism
-		icon = GFX_goal_support_democracy
-		prerequisite = { focus = ARI_velvet_glove_policies }
-		x = 35
-		y = 4
-		cost = 10
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	focus = {
-		id = ARI_a_pious
-		icon = GFX_goal_support_democracy
-		prerequisite = { focus = ARI_stamp_out_communism}
-		prerequisite = { focus = ARI_establish_an_arizonian}
-		prerequisite = { focus = ARI_a_friend_to_the}
-		x = 35
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
@@ -1209,6 +1248,32 @@ has_country_flag = ARI_ready_or_not
 	}
 
 	focus = {
+		id = ARI_english_only
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_segregation }
+		x = 85
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_wasps
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_english_only }
+		x = 85
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
 		id = ARI_in_the_shadow
 		icon = GFX_goal_support_democracy
 		prerequisite = { focus = ARI_ready_or_not_here_they_come }
@@ -1260,6 +1325,62 @@ has_country_flag = ARI_ready_or_not
 		}
 	}
 
+	focus = {
+		id = ARI_underworld_connections
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_reap_the_border }
+		x = 83
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_legitimize_the_border_patrol
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_underworld_connections }
+		x = 83
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_look
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_legitimize_the_border_patrol }
+		prerequisite = { focus = ARI_wasps }
+		prerequisite = { focus = ARI_coopt_the_tea_party }
+		x = 86
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_the_black_spot
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_legitimize_the_border_patrol }
+		prerequisite = { focus = ARI_wasps }
+		prerequisite = { focus = ARI_coopt_the_tea_party }
+		x = 84
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 #reality
 focus = {
 		id = ARI_our_terrible_reality
@@ -1270,6 +1391,22 @@ focus = {
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_deal_with_the_water_crisis
+		icon = GFX_focus_generic_strike_at_democracy1
+			prerequisite = { focus = ARI_our_terrible_reality }
+		x = 5
+		y = 26
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
 		}
 	}
 
@@ -1351,6 +1488,22 @@ focus = {
 	}
 
 	focus = {
+		id = ARI_legacy_of_the
+		icon = GFX_focus_generic_strike_at_democracy1
+			prerequisite = { focus = ARI_back_to_basics }
+		x = 8
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+	}
+
+	focus = {
 		id = ARI_invite
 		icon = GFX_focus_generic_strike_at_democracy1
 			prerequisite = { focus = ARI_loot }
@@ -1367,11 +1520,144 @@ focus = {
 	}
 
 	focus = {
+		id = ARI_survey_the_exiles
+		icon = GFX_focus_generic_strike_at_democracy1
+			prerequisite = { focus = ARI_invite }
+		x = 10
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+	}
+
+	focus = {
+		id = ARI_reorganize_the_national_guard
+		icon = GFX_focus_generic_strike_at_democracy1
+			prerequisite = { focus = ARI_survey_the_exiles }
+		x = 10
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+	}
+
+	focus = {
 		id = ARI_recruitment_campaigns
 		icon = GFX_focus_generic_strike_at_democracy1
-			prerequisite = { focus = ARI_loot }
+			prerequisite = { focus = ARI_civilian_gun_owners }
 		x = 12
 		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+	}
+
+	focus = {
+		id = ARI_modernization
+		icon = GFX_focus_generic_strike_at_democracy1
+			prerequisite = { focus = ARI_recruitment_campaigns }
+		x = 12
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+	}
+
+	focus = {
+		id = ARI_utilize_the_border
+		icon = GFX_focus_generic_strike_at_democracy1
+			prerequisite = { focus = ARI_modernization }
+		x = 12
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+	}
+
+	focus = {
+		id = ARI_dune_buggies
+		icon = GFX_focus_generic_strike_at_democracy1
+			prerequisite = { focus = ARI_utilize_the_border }
+			prerequisite = { focus = ARI_reorganize_the_national_guard }
+			prerequisite = { focus = ARI_legacy_of_the }
+		x = 11
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+	}
+
+	focus = {
+		id = ARI_desert_warfare
+		icon = GFX_focus_generic_strike_at_democracy1
+			prerequisite = { focus = ARI_utilize_the_border }
+			prerequisite = { focus = ARI_reorganize_the_national_guard }
+			prerequisite = { focus = ARI_legacy_of_the }
+		x = 9
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+	}
+
+	focus = {
+		id = ARI_the_birth
+		icon = GFX_focus_generic_strike_at_democracy1
+			prerequisite = { focus = ARI_dune_buggies }
+			prerequisite = { focus = ARI_desert_warfare }
+		x = 10
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+	}
+
+	focus = {
+		id = ARI_organization
+		icon = GFX_focus_generic_strike_at_democracy1
+			prerequisite = { focus = ARI_organization }
+		x = 12
+		y = 9
 		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
@@ -1402,11 +1688,75 @@ has_country_flag = ARI_ready_or_not
 	}
 
 	focus = {
+		id = ARI_combine_them
+		icon = GFX_focus_generic_strike_at_democracy1
+			prerequisite = { focus = ARI_the_border_militia_rules_the_state }
+		x = 15
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+	}
+
+	focus = {
+		id = ARI_survivalism
+		icon = GFX_focus_generic_strike_at_democracy1
+			prerequisite = { focus = ARI_combine_them }
+		x = 15
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+	}
+
+	focus = {
 		id = ARI_forming_a_proper_military
 		icon = GFX_focus_generic_strike_at_democracy1
 			prerequisite = { focus = ARI_the_national_guard_of_arizona }
 		x = 5
 		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+	}
+
+	focus = {
+		id = ARI_focus_on
+		icon = GFX_focus_generic_strike_at_democracy1
+			prerequisite = { focus = ARI_forming_a_proper_military }
+		x = 5
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+	}
+
+	focus = {
+		id = ARI_open_a_general_staff
+		icon = GFX_focus_generic_strike_at_democracy1
+			prerequisite = { focus = ARI_focus_on }
+		x = 5
+		y = 7
 		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
