@@ -1,5 +1,145 @@
 ideas = {
 
+	  country = {
+	    
+		idea_ari_water_crisis = {
+			allowed = {
+				always = no
+			}
+			picture = ari_water_crisis
+			available = {
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.15
+				monthly_population = -0.15
+				consumer_goods_factor = -0.1
+				production_factory_max_efficiency_factor = -0.10
+				industrial_capacity_factory = -0.10
+				production_speed_buildings_factor = -0.10
+			}
+		}
+		idea_ari_exiles = {
+			allowed = {
+				always = no
+			}
+			picture = ari_exiles
+			available = {
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				revolutionary_socialist_drift = 0.1
+				nationalist_drift = 0.1
+				fascist_drift = 0.1
+				communist_drift = 0.1
+				monarchist_drift = 0.1
+				monthly_population = 0.05
+			}
+		}
+		idea_ari_divided_politics = {
+			allowed = {
+				always = no
+			}
+			picture = ari_divided_politics
+			available = {
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				revolutionary_socialist_drift = 0.1
+				nationalist_drift = 0.1
+				fascist_drift = 0.1
+				communist_drift = 0.1
+				monarchist_drift = 0.1
+					political_power_gain = -0.1
+				stability_factor = -0.05
+				drift_defence_factor = -0.15
+			}
+		}
+		idea_ari_divided_identity = {
+			allowed = {
+				always = no
+			}
+			picture = ari_divided_identity
+			available = {
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = -0.15
+				justify_war_goal_time = 0.6
+				stability_factor = -0.15
+			}
+		}
+		idea_ari_circling_vultures = {
+			allowed = {
+				always = no
+			}
+			picture = ari_circling_vultures
+			available = {
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+					training_time_army_factor = -0.15
+				army_org_Factor = 0.05
+				stability_factor = -0.05
+				war_support_factor = 0.05
+				political_power_gain = -0.05
+					army_defence_factor = 0.10
+				surrender_limit = 0.05
+				army_core_defence_factor = 0.05
+			}
+			targeted_modifier = {
+				tag = PCA
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+			}
+			targeted_modifier = {
+				tag = UTA
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+			}
+			targeted_modifier = {
+				tag = MEX
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+			}
+		}
+		  idea_ari_barely_any_military = {
+			allowed = {
+				always = no
+			}
+			picture = ari_barely_any_military
+			available = {
+				is_puppet = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_morale_factor = -0.05
+				army_org_Factor = -0.2
+				planning_speed = -0.25
+				fascist_drift = 0.1
+				justify_war_goal_time = 0.6
+				army_attack_factor = -0.35
+			}
+		}
+	  }	
+
 
                 second_in_command = {
 	    arizona_sic_tim_foley = {

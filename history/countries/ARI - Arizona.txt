@@ -9,6 +9,12 @@ set_war_support = 0.1
 
 add_ideas = {
 	idea_america_neutrality
+	idea_ari_circling_vultures
+	idea_ari_water_crisis
+	idea_ari_exiles
+	idea_ari_divided_politics
+	idea_ari_divided_identity
+	idea_ari_barely_any_military
 }
 
 set_technology = {

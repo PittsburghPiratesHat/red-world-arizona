@@ -413,11 +413,63 @@ has_country_flag = ARI_arpaio_in_charge
 	}
 
 	focus = {
-		id = ARI_comrade_bernick
+		id = ARI_lorenzo_heirs
 		icon = GFX_goal_support_democracy
 		prerequisite = { focus = ARI_death_of_lorenzo }
 		x = 50
 		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_his_wife
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_lorenzo_heirs }
+		x = 52
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_his_friend
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_lorenzo_heirs }
+		x = 48
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_ask_for_soviet_assistance
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_his_friend }
+		x = 48
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_purge_corporations
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = ARI_ask_for_soviet_assistance }
+		x = 48
+		y = 14
 		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
@@ -478,10 +530,48 @@ has_country_flag = ARI_arpaio_in_charge
 		}
 	}
 
+		#Focus for mccain
+	focus = {
+		id = ARI_cincinattus
+		icon = molossia_in_exile
+		available = {
+
+has_government= monarchist
+
+has_country_flag = ARI_baugh
+		}
+		x = 40
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_rabid_anti_communism
+		icon = campaign
+		prerequisite = { focus = ARI_cincinattus }
+		x = 42
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	#Focus for Baugh
 	focus = {
 		id = ARI_molossia_in_exile
-		icon = GFX_goal_support_democracy
+		icon = molossia_in_exile
+		available = {
+
+has_government= monarchist
+
+has_country_flag = ARI_baugh
+		}
 		x = 40
 		y = 0
 		cost = 10
@@ -493,7 +583,7 @@ has_country_flag = ARI_arpaio_in_charge
 
 	focus = {
 		id = ARI_campaign
-		icon = GFX_goal_support_democracy
+		icon = campaign
 		prerequisite = { focus = ARI_molossia_in_exile }
 		x = 42
 		y = 1
@@ -506,7 +596,7 @@ has_country_flag = ARI_arpaio_in_charge
 
 	focus = {
 		id = ARI_invite_monarchist_exiles
-		icon = GFX_goal_support_democracy
+		icon = invitemonarchistexiles
 		prerequisite = { focus = ARI_campaign }
 		x = 42
 		y = 2
@@ -519,8 +609,8 @@ has_country_flag = ARI_arpaio_in_charge
 
 	focus = {
 		id = ARI_a_molossian_constitution
-		icon = GFX_goal_support_democracy
-		prerequisite = { focus = ARI_campaign }
+		icon = molossianconstitution
+		prerequisite = { focus = ARI_invite_monarchist_exiles }
 		x = 42
 		y = 3
 		cost = 10
@@ -532,7 +622,7 @@ has_country_flag = ARI_arpaio_in_charge
 
 	focus = {
 		id = ARI_discard_
-		icon = GFX_goal_support_democracy
+		icon = out_with_nonsense
 		prerequisite = { focus = ARI_molossia_in_exile }
 		x = 38
 		y = 1
@@ -545,7 +635,7 @@ has_country_flag = ARI_arpaio_in_charge
 
 	focus = {
 		id = ARI_endear
-		icon = GFX_goal_support_democracy
+		icon = endear
 		prerequisite = { focus = ARI_discard_ }
 		x = 38
 		y = 2
@@ -558,7 +648,7 @@ has_country_flag = ARI_arpaio_in_charge
 
 	focus = {
 		id = ARI_forming_a_proper_cabinent
-		icon = GFX_goal_support_democracy
+		icon = form_a_proper
 		prerequisite = { focus = ARI_endear }
 		x = 38
 		y = 3
@@ -571,7 +661,7 @@ has_country_flag = ARI_arpaio_in_charge
 
 	focus = {
 		id = ARI_silence_naysayrs
-		icon = GFX_goal_support_democracy
+		icon = silencenaysayers
 		prerequisite = { focus = ARI_molossia_in_exile }
 		x = 40
 		y = 1
@@ -584,7 +674,7 @@ has_country_flag = ARI_arpaio_in_charge
 
 	focus = {
 		id = ARI_ally_with
-		icon = GFX_goal_support_democracy
+		icon = fight_communism_molossia
 		prerequisite = { focus = ARI_silence_naysayrs }
 		x = 40
 		y = 2
@@ -597,7 +687,7 @@ has_country_flag = ARI_arpaio_in_charge
 
 	focus = {
 		id = ARI_discredit
-		icon = GFX_goal_support_democracy
+		icon = molossianmyth
 		prerequisite = { focus = ARI_ally_with }
 		x = 40
 		y = 3
@@ -610,7 +700,7 @@ has_country_flag = ARI_arpaio_in_charge
 
 	focus = {
 		id = ARI_a_micronation_no_more
-		icon = GFX_goal_support_democracy
+		icon = amicronationnomore
 		prerequisite = { focus = ARI_discredit }
 		prerequisite = { focus = ARI_a_molossian_constitution }
 		prerequisite = { focus = ARI_forming_a_proper_cabinent }
@@ -837,7 +927,7 @@ has_country_flag = ARI_mitchell_held_on
 	#hayworth in charge
 		focus = {
 		id = ARI_hayworth
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = Hayworth_in_charge
 		x = 65
 		y = 0
 		cost = 10
@@ -855,7 +945,7 @@ has_country_flag = ARI_hayworth
 
 	focus = {
 		id = ARI_hayworth_held_on
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = hayworthstays
 		prerequisite = { focus = ARI_hayworth }
 		x = 65
 		y = 3
@@ -874,7 +964,7 @@ has_country_flag = ARI_hayworth
 
 	focus = {
 		id = ARI_mccarthy
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = Arizona_McCarthy
 		prerequisite = { focus = ARI_hayworth_held_on }
 		x = 65
 		y = 4
@@ -893,7 +983,7 @@ has_country_flag = ARI_hayworth
 
 	focus = {
 		id = ARI_galvanize_radical
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = Galvanize_republican
 		prerequisite = { focus = ARI_mccarthy }
 		x = 65
 		y = 5
@@ -912,7 +1002,7 @@ has_country_flag = ARI_hayworth
 
 		focus = {
 		id = ARI_mandatory_work
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = Mandatorywork
 		prerequisite = { focus = ARI_galvanize_radical }
 		x = 65
 		y = 6
@@ -931,7 +1021,7 @@ has_country_flag = ARI_hayworth
 
 	focus = {
 		id = ARI_keep_democracy
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = keep_democracy
 		prerequisite = { focus = ARI_propaganda }
 		prerequisite = { focus = ARI_mandatory_work }
 		prerequisite = { focus = ARI_fate_of_the_rival }
@@ -955,7 +1045,7 @@ has_country_flag = ARI_hayworth
 
 	focus = {
 		id = ARI_hayworths_america
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = hayworthsamerica
 		prerequisite = { focus = ARI_propaganda }
 		prerequisite = { focus = ARI_mandatory_work }
 		prerequisite = { focus = ARI_fate_of_the_rival }
@@ -980,7 +1070,7 @@ has_country_flag = ARI_hayworth
 
 	focus = {
 		id = ARI_fix_the_constitution
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = Fixthe
 		prerequisite = { focus = ARI_hayworth_held_on }
 		x = 63
 		y = 4
@@ -999,7 +1089,7 @@ has_country_flag = ARI_hayworth
 
 	focus = {
 		id = ARI_rewrite_history
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = RewriteHistory
 		prerequisite = { focus = ARI_fix_the_constitution }
 		x = 63
 		y = 5
@@ -1018,7 +1108,7 @@ has_country_flag = ARI_hayworth
 
 	focus = {
 		id = ARI_propaganda
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = hayworthspropaganda
 		prerequisite = { focus = ARI_rewrite_history }
 		x = 63
 		y = 6
@@ -1037,7 +1127,7 @@ has_country_flag = ARI_hayworth
 
 	focus = {
 		id = ARI_stamp_out
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = Stampout
 		prerequisite = { focus = ARI_hayworth_held_on }
 		x = 67
 		y = 4
@@ -1056,7 +1146,7 @@ has_country_flag = ARI_hayworth
 
 	focus = {
 		id = ARI_americanization
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = Americanization
 		prerequisite = { focus = ARI_stamp_out }
 		x = 67
 		y = 5
@@ -1075,7 +1165,7 @@ has_country_flag = ARI_hayworth
 
 	focus = {
 		id = ARI_fate_of_the_rival
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = fate_of_craig
 		prerequisite = { focus = ARI_americanization }
 		x = 67
 		y = 6
@@ -1094,7 +1184,7 @@ has_country_flag = ARI_hayworth
 
 	focus = {
 		id = ARI_purge_mccain
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = purge_mccain
 		prerequisite = { focus = ARI_hayworth }
 		x = 62
 		y = 1
@@ -1113,7 +1203,7 @@ has_country_flag = ARI_hayworth
 
 	focus = {
 		id = ARI_control_the_military
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = Control_the_military
 		prerequisite = { focus = ARI_purge_mccain }
 		x = 62
 		y = 2
@@ -1132,7 +1222,7 @@ has_country_flag = ARI_hayworth
 
 	focus = {
 		id = ARI_a_meeting_with_arpaio
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = AMeetingwithArpaio
 		prerequisite = { focus = ARI_hayworth }
 		mutually_exclusive = {
 			focus = ARI_sideline_arpaio
@@ -1154,7 +1244,7 @@ has_country_flag = ARI_hayworth
 
 	focus = {
 		id = ARI_resign_my_friend
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = resign_my
 		prerequisite = { focus = ARI_a_meeting_with_arpaio }
 		x = 72
 		y = 2
@@ -1173,7 +1263,7 @@ has_country_flag = ARI_hayworth
 
 	focus = {
 		id = ARI_sideline_arpaio
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = SidelineArpaio
 		prerequisite = { focus = ARI_hayworth }
 		mutually_exclusive = {
 			focus = ARI_a_meeting_with_arpaio
@@ -1195,7 +1285,7 @@ has_country_flag = ARI_hayworth
 
 	focus = {
 		id = ARI_bring_the_police_to_heel
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = Reignin
 		prerequisite = { focus = ARI_sideline_arpaio }
 		x = 68
 		y = 2

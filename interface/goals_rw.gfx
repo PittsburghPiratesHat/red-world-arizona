@@ -48,6 +48,126 @@ spriteTypes = {
 	}
 	#### OTHER ####
 	SpriteType = {
+		name = "campaign"
+		texturefile = "gfx/interface/goals/arizona/CampaignforRecongitionforthehouseofbaugh.dds"
+	}
+	SpriteType = {
+		name = "endear"
+		texturefile = "gfx/interface/goals/arizona/Endearhimtothepeople.dds"
+	}
+	SpriteType = {
+		name = "fight_communism_molossia"
+		texturefile = "gfx/interface/goals/arizona/FightCommunismMolossia.dds"
+	}
+	SpriteType = {
+		name = "form_a_proper"
+		texturefile = "gfx/interface/goals/arizona/Formapropercabinent.dds"
+	}
+	SpriteType = {
+		name = "invitemonarchistexiles"
+		texturefile = "gfx/interface/goals/arizona/InviteMonarchistExiles.dds"
+	}
+	SpriteType = {
+		name = "molossia_in_exile"
+		texturefile = "gfx/interface/goals/arizona/MolossiainExile.dds"
+	}
+	SpriteType = {
+		name = "molossianconstitution"
+		texturefile = "gfx/interface/goals/arizona/MolossianConstitution.dds"
+	}
+	SpriteType = {
+		name = "out_with_nonsense"
+		texturefile = "gfx/interface/goals/arizona/OutwiththeNonesense.dds"
+	}
+	SpriteType = {
+		name = "silencenaysayers"
+		texturefile = "gfx/interface/goals/arizona/SilencetheNaysayers.dds"
+	}
+	SpriteType = {
+		name = "molossianmyth"
+		texturefile = "gfx/interface/goals/arizona/TheMolossianMyth.dds"
+	}
+	SpriteType = {
+		name = "amicronationnomore"
+		texturefile = "gfx/interface/goals/arizona/AMicronationNoMore.dds"
+	}
+		SpriteType = {
+		name = "Hayworth_in_charge"
+		texturefile = "gfx/interface/goals/arizona/Wayworth.dds"
+	}
+		SpriteType = {
+		name = "AMeetingwithArpaio"
+		texturefile = "gfx/interface/goals/arizona/AMeetingwithArapaio.dds"
+	}
+		SpriteType = {
+		name = "Americanization"
+		texturefile = "gfx/interface/goals/arizona/Americanization.dds"
+	}
+		SpriteType = {
+		name = "Arizona_McCarthy"
+		texturefile = "gfx/interface/goals/arizona/ArizonasMccarthy.dds"
+	}
+		SpriteType = {
+		name = "Control_the_military"
+		texturefile = "gfx/interface/goals/arizona/ControltheMilitary.dds"
+	}
+		SpriteType = {
+		name = "Fixthe"
+		texturefile = "gfx/interface/goals/arizona/FixtheConstitution.dds"
+	}
+		SpriteType = {
+		name = "Galvanize_republican"
+		texturefile = "gfx/interface/goals/arizona/GalvanzieRepublican.dds"
+	}
+		SpriteType = {
+		name = "keep_democracy"
+		texturefile = "gfx/interface/goals/arizona/Keepdemocracy.dds"
+	}
+		SpriteType = {
+		name = "Mandatorywork"
+		texturefile = "gfx/interface/goals/arizona/MandatoryWork.dds"
+	}
+		SpriteType = {
+		name = "purge_mccain"
+		texturefile = "gfx/interface/goals/arizona/PurgeMcCain.dds"
+	}
+		SpriteType = {
+		name = "Reignin"
+		texturefile = "gfx/interface/goals/arizona/Reigninthepolice.dds"
+	}
+		SpriteType = {
+		name = "resign_my"
+		texturefile = "gfx/interface/goals/arizona/Resignmyfriend.dds"
+	}
+		SpriteType = {
+		name = "RewriteHistory"
+		texturefile = "gfx/interface/goals/arizona/RewriteHsitory.dds"
+	}
+		SpriteType = {
+		name = "SidelineArpaio"
+		texturefile = "gfx/interface/goals/arizona/SidelineArapaio.dds"
+	}
+		SpriteType = {
+		name = "Stampout"
+		texturefile = "gfx/interface/goals/arizona/StampoutArizonanNationalism.dds"
+	}
+		SpriteType = {
+		name = "hayworthsamerica"
+		texturefile = "gfx/interface/goals/arizona/wayworthsAmerica.dds"
+	}
+		SpriteType = {
+		name = "hayworthspropaganda"
+		texturefile = "gfx/interface/goals/arizona/Wayworthspropaganda.dds"
+	}
+		SpriteType = {
+		name = "hayworthstays"
+		texturefile = "gfx/interface/goals/arizona/wayworthstays.dds"
+	}
+		SpriteType = {
+		name = "fate_of_craig"
+		texturefile = "gfx/interface/goals/arizona/FateofhteRival.dds"
+	}
+	SpriteType = {
 		name = "blind_eye"
 		texturefile = "gfx/interface/goals/arizona/ABlindEyetoRacialProfiling.dds"
 	}
