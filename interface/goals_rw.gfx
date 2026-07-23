@@ -47,6 +47,82 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	#### OTHER ####
+		SpriteType = {
+		name = "moderatecapitalism"
+		texturefile = "gfx/interface/goals/arizona/BalanceCapitalism.dds"
+	}
+		SpriteType = {
+		name = "commonsense"
+		texturefile = "gfx/interface/goals/arizona/ColumbusForCommonSense.dds"
+	}
+		SpriteType = {
+		name = "countryclub"
+		texturefile = "gfx/interface/goals/arizona/CountryClubRepublican.dds"
+	}
+		SpriteType = {
+		name = "craigslist"
+		texturefile = "gfx/interface/goals/arizona/CraigsList.dds"
+	}
+		SpriteType = {
+		name = "curtailextremism"
+		texturefile = "gfx/interface/goals/arizona/CurtailExtremism.dds"
+	}
+		SpriteType = {
+		name = "dropregulation"
+		texturefile = "gfx/interface/goals/arizona/DropRegulations.dds"
+	}
+		SpriteType = {
+		name = "everyone"
+		texturefile = "gfx/interface/goals/arizona/EndorsedbyEveryone.dds"
+	}
+		SpriteType = {
+		name = "ensuredemocracy"
+		texturefile = "gfx/interface/goals/arizona/EnsureDemocracySurvives.dds"
+	}
+		SpriteType = {
+		name = "eradicatecommunism"
+		texturefile = "gfx/interface/goals/arizona/ErradicateCommunism.dds"
+	}
+		SpriteType = {
+		name = "footstepsgoldwater"
+		texturefile = "gfx/interface/goals/arizona/FootstepsofGoldwater.dds"
+	}
+		SpriteType = {
+		name = "dad"
+		texturefile = "gfx/interface/goals/arizona/PresidentDad.dds"
+	}
+		SpriteType = {
+		name = "unclecurt"
+		texturefile = "gfx/interface/goals/arizona/SendBrothertoMoscow.dds"
+	}
+		SpriteType = {
+		name = "stancesoviet"
+		texturefile = "gfx/interface/goals/arizona/StanceonSovietUnion.dds"
+	}
+	SpriteType = {
+		name = "debate"
+		texturefile = "gfx/interface/goals/arizona/ADebateOverTheFuture.dds"
+	}
+	SpriteType = {
+		name = "end"
+		texturefile = "gfx/interface/goals/arizona/TheEndOfTheDebate.dds"
+	}
+	SpriteType = {
+		name = "stateof"
+		texturefile = "gfx/interface/goals/arizona/TheStateOfArizona.dds"
+	}
+	SpriteType = {
+		name = "statusmex"
+		texturefile = "gfx/interface/goals/arizona/TheStatusOfMexicanArizonans.dds"
+	}
+	SpriteType = {
+		name = "statusmil"
+		texturefile = "gfx/interface/goals/arizona/TheStatusOfOurMilitary.dds"
+	}
+	SpriteType = {
+		name = "statuseco"
+		texturefile = "gfx/interface/goals/arizona/TheStatusOfTheEconomy.dds"
+	}
 	SpriteType = {
 		name = "campaign"
 		texturefile = "gfx/interface/goals/arizona/CampaignforRecongitionforthehouseofbaugh.dds"

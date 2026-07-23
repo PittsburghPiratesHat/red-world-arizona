@@ -149,8 +149,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Cecile Richards"
-	picture = "Portrait_ARI_Cecile_Richards.dds"
+	name = "Raul Grivalja"
+	picture = "Portrait_ARI_Raul_Grivalja.dds"
 	ideology = progressive
 }
 
@@ -163,5 +163,5 @@ create_country_leader = {
 create_country_leader = {
 	name = "Lorenzo Torrez"
 	picture = "Portrait_ARI_Lorenzo_Torrez.dds"
-	ideology = american_communist
+	ideology = chicano_thought
 }

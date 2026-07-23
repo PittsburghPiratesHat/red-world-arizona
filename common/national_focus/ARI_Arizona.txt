@@ -12,7 +12,7 @@ focus_tree = {
 	#Focus for the status of economy
 	focus = {
 		id = ARI_the_status_of_economy
-		icon = GFX_goal_continuous_repairments
+		icon = statuseco
 		x = 13
 		y = 2
 		cost = 10
@@ -32,7 +32,7 @@ id = redworldarizona.4
 	#Focus for the end of the debates
 	focus = {
 		id = ARI_the_end_of_the_debates
-		icon = GFX_goal_tfv_sever_ties_with_uk
+		icon = end
 		x = 7
 		y = 3
 		cost = 10
@@ -60,7 +60,7 @@ id = redworldarizona.5
 	#Focus for The State Of Arizona
 	focus = {
 		id = ARI_the_state_of_arizona
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = stateof
 		x = 7
 		y = 0
 		cost = 1
@@ -76,7 +76,7 @@ id = redworldarizona.5
 	#Focus for a debate over our future
 	focus = {
 		id = ARI_a_debate_over_our_future
-		icon = GFX_goal_tripartite_pact
+		icon = debate
 		x = 7
 		y = 1
 		cost = 1
@@ -96,7 +96,7 @@ id = redworldarizona.1
 	#Focus for The status of Mexican Arizonians
 	focus = {
 		id = ARI_the_status_of_mexican_arizonians
-		icon = GFX_goal_generic_political_pressure
+		icon = statusmex
 		x = 1
 		y = 2
 		cost = 1
@@ -116,7 +116,7 @@ id = redworldarizona.2
 	#Focus for the status of our military
 	focus = {
 		id = ARI_the_status_of_our_military
-		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
+		icon = statusmil
 		x = 7
 		y = 2
 		cost = 10
@@ -562,6 +562,45 @@ has_country_flag = ARI_baugh
 		}
 	}
 
+	focus = {
+		id = ARI_bread_and_circus
+		icon = campaign
+		prerequisite = { focus = ARI_rabid_anti_communism }
+		x = 42
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_neutralize_arpaio
+		icon = campaign
+		prerequisite = { focus = ARI_cincinattus }
+		x = 40
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_control_the_border_control
+		icon = campaign
+		prerequisite = { focus = ARI_cincinattus }
+		x = 38
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	#Focus for Baugh
 	focus = {
 		id = ARI_molossia_in_exile
@@ -716,7 +755,7 @@ has_country_flag = ARI_baugh
 	#Focus for President Craig
 	focus = {
 		id = ARI_president_craig
-		icon = GFX_goal_support_democracy
+		icon = dad
 		x = 25
 		y = 0
 		cost = 10
@@ -724,12 +763,18 @@ has_country_flag = ARI_baugh
 		ai_will_do = {
 			factor = 1
 		}
+		available = {
+
+has_government= nationalist
+
+has_country_flag = ARI_mitchell_held_on
+		}
 	}
 	
 
 	focus = {
 		id = ARI_in_the_footsteps_of_goldwater
-		icon = GFX_goal_support_democracy
+		icon = footstepsgoldwater
 		prerequisite = { focus = ARI_president_craig }
 		x = 25
 		y = 1
@@ -742,7 +787,7 @@ has_country_flag = ARI_baugh
 
 	focus = {
 		id = ARI_stance_on_soviet
-		icon = GFX_goal_support_democracy
+		icon = stancesoviet
 		prerequisite = { focus = ARI_in_the_footsteps_of_goldwater }
 		x = 25
 		y = 2
@@ -755,7 +800,7 @@ has_country_flag = ARI_baugh
 
 	focus = {
 		id = ARI_country_club
-		icon = GFX_goal_support_democracy
+		icon = countryclub
 		prerequisite = { focus = ARI_in_the_footsteps_of_goldwater }
 		x = 28
 		y = 2
@@ -768,7 +813,7 @@ has_country_flag = ARI_baugh
 
 	focus = {
 		id = ARI_curtail
-		icon = GFX_goal_support_democracy
+		icon = curtailextremism
 		prerequisite = { focus = ARI_country_club }
 		x = 28
 		y = 3
@@ -781,7 +826,7 @@ has_country_flag = ARI_baugh
 
 	focus = {
 		id = ARI_endorsed_by
-		icon = GFX_goal_support_democracy
+		icon = everyone
 		prerequisite = { focus = ARI_curtail }
 		x = 28
 		y = 4
@@ -794,7 +839,7 @@ has_country_flag = ARI_baugh
 
 	focus = {
 		id = ARI_economic_deregulation
-		icon = GFX_goal_support_democracy
+		icon = dropregulation
 		prerequisite = { focus = ARI_in_the_footsteps_of_goldwater }
 		x = 22
 		y = 2
@@ -807,7 +852,7 @@ has_country_flag = ARI_baugh
 
 	focus = {
 		id = ARI_craigs_agenda
-		icon = GFX_goal_support_democracy
+		icon = craigslist
 		prerequisite = { focus = ARI_economic_deregulation }
 		x = 22
 		y = 3
@@ -820,7 +865,7 @@ has_country_flag = ARI_baugh
 
 	focus = {
 		id = ARI_moderate_capitalism
-		icon = GFX_goal_support_democracy
+		icon = moderatecapitalism
 		prerequisite = { focus = ARI_craigs_agenda }
 		x = 22
 		y = 4
@@ -833,7 +878,7 @@ has_country_flag = ARI_baugh
 
 	focus = {
 		id = ARI_send_the_brother
-		icon = GFX_goal_support_democracy
+		icon = unclecurt
 		prerequisite = { focus = ARI_stance_on_soviet }
 		mutually_exclusive = {
 			focus = ARI_eradicate_communism
@@ -849,7 +894,7 @@ has_country_flag = ARI_baugh
 
 	focus = {
 		id = ARI_eradicate_communism
-		icon = GFX_goal_support_democracy
+		icon = eradicatecommunism
 		prerequisite = { focus = ARI_stance_on_soviet }
 		mutually_exclusive = {
 			focus = ARI_send_the_brother
@@ -865,7 +910,7 @@ has_country_flag = ARI_baugh
 
 	focus = {
 		id = ARI_ensure_democracy_remains
-		icon = GFX_goal_support_democracy
+		icon = ensuredemocracy
 		prerequisite = { focus = ARI_eradicate_communism focus = ARI_send_the_brother }
 		x = 25
 		y = 4
@@ -878,7 +923,7 @@ has_country_flag = ARI_baugh
 
 	focus = {
 		id = ARI_goldwaters_dream
-		icon = GFX_goal_support_democracy
+		icon =commonsense
 		prerequisite = {  focus = ARI_moderate_capitalism }
 		prerequisite = {  focus = ARI_ensure_democracy_remains }
 		prerequisite = {  focus = ARI_endorsed_by }

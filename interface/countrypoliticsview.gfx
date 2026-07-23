@@ -560,6 +560,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_ideology_chicano_thought"
+		texturefile = "gfx/interface/ideologies/chicano_thought.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ideology_nehruvian_socialism"
 		texturefile = "gfx/interface/ideologies/nehruvian_socialism.dds"
 	}

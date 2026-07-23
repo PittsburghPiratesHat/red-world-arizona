@@ -814,6 +814,11 @@ defined_text = {
 		trigger = { has_country_leader_ideology = quebec_nationalism }
 		localization_key = quebec_nationalism
 	}
+
+	text = {
+		trigger = { has_country_leader_ideology = chicano_thought }
+		localization_key = chicano_thought
+	}
 	
 	text = {
 		trigger = { has_country_leader_ideology = trumpism }
@@ -1815,6 +1820,8 @@ defined_text = {
 		trigger = { has_country_leader_ideology = securocracy }
 		localization_key = securocracy_desc
 	}
+
+
 	
 	### RW - AN ADDITIONS ###
 	

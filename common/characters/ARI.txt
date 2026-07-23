@@ -104,11 +104,11 @@ characters={
 			id=-1
 		}
 	}
-	ARI_cecile_richards={
-		name="Cecile Richards"
+	ARI_raul_grivalja={
+		name="Raul Grivalja"
 		portraits={
 			civilian={
-				large="gfx/leaders/ARI/Portrait_ARI_Cecile_Richards.dds"
+				large="gfx/leaders/ARI/Portrait_ARI_Raul_Grivalja.dds"
 			}
 		}
 		country_leader={
@@ -138,7 +138,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=american_communist
+			ideology= chicano_thought
 			expire="1.1.1.1"
 			id=-1
 		}
