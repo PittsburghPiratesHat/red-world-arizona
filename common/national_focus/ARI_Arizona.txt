@@ -576,6 +576,19 @@ has_country_flag = ARI_baugh
 	}
 
 	focus = {
+		id = ARI_desert_infrastructure_programs
+		icon = campaign
+		prerequisite = { focus = ARI_bread_and_circus }
+		x = 42
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
 		id = ARI_neutralize_arpaio
 		icon = campaign
 		prerequisite = { focus = ARI_cincinattus }
@@ -589,11 +602,89 @@ has_country_flag = ARI_baugh
 	}
 
 	focus = {
+		id = ARI_duty_above_politics
+		icon = campaign
+		prerequisite = { focus = ARI_neutralize_arpaio }
+		x = 40
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_the_old_man
+		icon = campaign
+		prerequisite = { focus = ARI_duty_above_politics }
+		x = 40
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
 		id = ARI_control_the_border_control
 		icon = campaign
 		prerequisite = { focus = ARI_cincinattus }
 		x = 38
 		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_national_service
+		icon = campaign
+		prerequisite = { focus = ARI_control_the_border_control }
+		x = 38
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_fully_eliminate_arizonan_nationalism
+		icon = campaign
+		prerequisite = { focus = ARI_national_service }
+		x = 38
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_return_to_civilian_rule
+		icon = campaign
+		prerequisite = { focus = ARI_national_service }
+		x = 39
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_military_guardianship
+		icon = campaign
+		prerequisite = { focus = ARI_national_service }
+		x = 41
+		y = 10
 		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
@@ -1353,7 +1444,7 @@ has_country_flag = ARI_hayworth
 	#Evilness
 		focus = {
 		id = ARI_ready_or_not_here_they_come
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = readyornot
 		x = 85
 		y = 0
 		cost = 10
@@ -1371,7 +1462,7 @@ has_country_flag = ARI_ready_or_not
 
 		focus = {
 		id = ARI_segregation
-		icon = GFX_goal_support_democracy
+		icon = segregationand
 		prerequisite = { focus = ARI_ready_or_not_here_they_come }
 		x = 85
 		y = 1
@@ -1384,7 +1475,7 @@ has_country_flag = ARI_ready_or_not
 
 	focus = {
 		id = ARI_english_only
-		icon = GFX_goal_support_democracy
+		icon = englishonly
 		prerequisite = { focus = ARI_segregation }
 		x = 85
 		y = 2
@@ -1397,7 +1488,7 @@ has_country_flag = ARI_ready_or_not
 
 	focus = {
 		id = ARI_wasps
-		icon = GFX_goal_support_democracy
+		icon = wasp
 		prerequisite = { focus = ARI_english_only }
 		x = 85
 		y = 3
@@ -1410,7 +1501,7 @@ has_country_flag = ARI_ready_or_not
 
 	focus = {
 		id = ARI_in_the_shadow
-		icon = GFX_goal_support_democracy
+		icon = shadow
 		prerequisite = { focus = ARI_ready_or_not_here_they_come }
 		x = 87
 		y = 1
@@ -1423,7 +1514,7 @@ has_country_flag = ARI_ready_or_not
 
 	focus = {
 		id = ARI_purge_all_communists
-		icon = GFX_goal_support_democracy
+		icon = purgeallcommunists
 		prerequisite = { focus = ARI_in_the_shadow }
 		x = 87
 		y = 2
@@ -1436,7 +1527,7 @@ has_country_flag = ARI_ready_or_not
 
 	focus = {
 		id = ARI_coopt_the_tea_party
-		icon = GFX_goal_support_democracy
+		icon = teaparty
 		prerequisite = { focus = ARI_purge_all_communists }
 		x = 87
 		y = 3
@@ -1449,7 +1540,7 @@ has_country_flag = ARI_ready_or_not
 
 	focus = {
 		id = ARI_reap_the_border
-		icon = GFX_goal_support_democracy
+		icon = reaptheborder
 		prerequisite = { focus = ARI_ready_or_not_here_they_come }
 		x = 83
 		y = 1
@@ -1462,7 +1553,7 @@ has_country_flag = ARI_ready_or_not
 
 	focus = {
 		id = ARI_underworld_connections
-		icon = GFX_goal_support_democracy
+		icon = underworldconnections
 		prerequisite = { focus = ARI_reap_the_border }
 		x = 83
 		y = 2
@@ -1475,7 +1566,7 @@ has_country_flag = ARI_ready_or_not
 
 	focus = {
 		id = ARI_legitimize_the_border_patrol
-		icon = GFX_goal_support_democracy
+		icon = legit
 		prerequisite = { focus = ARI_underworld_connections }
 		x = 83
 		y = 3
@@ -1488,7 +1579,10 @@ has_country_flag = ARI_ready_or_not
 
 	focus = {
 		id = ARI_look
-		icon = GFX_goal_support_democracy
+		icon = lookinto
+		mutually_exclusive = {
+			focus = ARI_the_black_spot
+		}
 		prerequisite = { focus = ARI_legitimize_the_border_patrol }
 		prerequisite = { focus = ARI_wasps }
 		prerequisite = { focus = ARI_coopt_the_tea_party }
@@ -1503,7 +1597,10 @@ has_country_flag = ARI_ready_or_not
 
 	focus = {
 		id = ARI_the_black_spot
-		icon = GFX_goal_support_democracy
+		icon = blackspot
+		mutually_exclusive = {
+			focus = ARI_look
+		}
 		prerequisite = { focus = ARI_legitimize_the_border_patrol }
 		prerequisite = { focus = ARI_wasps }
 		prerequisite = { focus = ARI_coopt_the_tea_party }

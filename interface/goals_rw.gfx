@@ -47,6 +47,54 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	#### OTHER ####
+	SpriteType = {
+		name = "teaparty"
+		texturefile = "gfx/interface/goals/arizona/Co-opttheteaparty.dds"
+	}
+	SpriteType = {
+		name = "englishonly"
+		texturefile = "gfx/interface/goals/arizona/englishonly.dds"
+	}
+	SpriteType = {
+		name = "shadow"
+		texturefile = "gfx/interface/goals/arizona/intheshadowofthefounders.dds"
+	}
+	SpriteType = {
+		name = "legit"
+		texturefile = "gfx/interface/goals/arizona/legitimizetheborderpatrol.dds"
+	}
+	SpriteType = {
+		name = "lookinto"
+		texturefile = "gfx/interface/goals/arizona/lookintocreatingtheUnitedStatesofArizona.dds"
+	}
+	SpriteType = {
+		name = "purgeallcommunists"
+		texturefile = "gfx/interface/goals/arizona/purgeallcommunists.dds"
+	}
+	SpriteType = {
+		name = "readyornot"
+		texturefile = "gfx/interface/goals/arizona/Readyornotheretheycome.dds"
+	}
+	SpriteType = {
+		name = "reaptheborder"
+		texturefile = "gfx/interface/goals/arizona/reaptheborder.dds"
+	}
+	SpriteType = {
+		name = "segregationand"
+		texturefile = "gfx/interface/goals/arizona/segregationandantimiscgenation.dds"
+	}
+	SpriteType = {
+		name = "blackspot"
+		texturefile = "gfx/interface/goals/arizona/theblackspotofnorthamerica.dds"
+	}
+	SpriteType = {
+		name = "underworldconnections"
+		texturefile = "gfx/interface/goals/arizona/underworldconnections.dds"
+	}
+	SpriteType = {
+		name = "wasp"
+		texturefile = "gfx/interface/goals/arizona/WASPsupremacy.dds"
+	}
 		SpriteType = {
 		name = "moderatecapitalism"
 		texturefile = "gfx/interface/goals/arizona/BalanceCapitalism.dds"
