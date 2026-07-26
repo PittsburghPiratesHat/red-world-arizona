@@ -1646,7 +1646,7 @@ focus = {
 	#Focus for The National Guard of Arizona
 	focus = {
 		id = ARI_the_national_guard_of_arizona
-		icon = GFX_goal_generic_major_war
+		icon = nationalguard
 		x = 10
 		y = 4
 		cost = 10
@@ -1654,10 +1654,16 @@ focus = {
 		ai_will_do = {
 			factor = 1
 		}
+		available = {
+
+has_government= nationalist
+
+has_country_flag = ARI_arpaio_in_charge
+		}
 	}
 	focus = {
 		id = ARI_loot
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = lootmuseums
 			prerequisite = { focus = ARI_the_national_guard_of_arizona }
 		x = 10
 		y = 5
@@ -1673,7 +1679,7 @@ focus = {
 
 	focus = {
 		id = ARI_civilian_gun_owners
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = civiliangunowners
 			prerequisite = { focus = ARI_loot }
 		x = 10
 		y = 6
@@ -1689,7 +1695,7 @@ focus = {
 
 	focus = {
 		id = ARI_seize_civilian_goods
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = seizeciviliangoods
 			prerequisite = { focus = ARI_civilian_gun_owners }
 		x = 8
 		y = 7
@@ -1705,7 +1711,7 @@ focus = {
 
 	focus = {
 		id = ARI_back_to_basics
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = backtobasics
 			prerequisite = { focus = ARI_seize_civilian_goods }
 		x = 8
 		y = 8
@@ -1721,7 +1727,7 @@ focus = {
 
 	focus = {
 		id = ARI_legacy_of_the
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = legacyofthecodetalkers
 			prerequisite = { focus = ARI_back_to_basics }
 		x = 8
 		y = 9
@@ -1737,7 +1743,7 @@ focus = {
 
 	focus = {
 		id = ARI_invite
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = foreignmercs
 			prerequisite = { focus = ARI_loot }
 		x = 10
 		y = 7
@@ -1753,7 +1759,7 @@ focus = {
 
 	focus = {
 		id = ARI_survey_the_exiles
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = surveyexiles
 			prerequisite = { focus = ARI_invite }
 		x = 10
 		y = 8
@@ -1769,7 +1775,7 @@ focus = {
 
 	focus = {
 		id = ARI_reorganize_the_national_guard
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = reorganizenationalguard
 			prerequisite = { focus = ARI_survey_the_exiles }
 		x = 10
 		y = 9
@@ -1785,7 +1791,7 @@ focus = {
 
 	focus = {
 		id = ARI_recruitment_campaigns
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = recruitmentcampaigns
 			prerequisite = { focus = ARI_civilian_gun_owners }
 		x = 12
 		y = 7
@@ -1801,7 +1807,7 @@ focus = {
 
 	focus = {
 		id = ARI_modernization
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = armymodernization
 			prerequisite = { focus = ARI_recruitment_campaigns }
 		x = 12
 		y = 8
@@ -1817,7 +1823,7 @@ focus = {
 
 	focus = {
 		id = ARI_utilize_the_border
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = utilizetheborder
 			prerequisite = { focus = ARI_modernization }
 		x = 12
 		y = 9
@@ -1833,7 +1839,7 @@ focus = {
 
 	focus = {
 		id = ARI_dune_buggies
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = dunebuggies
 			prerequisite = { focus = ARI_utilize_the_border }
 			prerequisite = { focus = ARI_reorganize_the_national_guard }
 			prerequisite = { focus = ARI_legacy_of_the }
@@ -1851,7 +1857,7 @@ focus = {
 
 	focus = {
 		id = ARI_desert_warfare
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = desertwarfare
 			prerequisite = { focus = ARI_utilize_the_border }
 			prerequisite = { focus = ARI_reorganize_the_national_guard }
 			prerequisite = { focus = ARI_legacy_of_the }
@@ -1869,7 +1875,7 @@ focus = {
 
 	focus = {
 		id = ARI_the_birth
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = birth
 			prerequisite = { focus = ARI_dune_buggies }
 			prerequisite = { focus = ARI_desert_warfare }
 		x = 10
@@ -1884,25 +1890,10 @@ focus = {
 		}
 	}
 
-	focus = {
-		id = ARI_organization
-		icon = GFX_focus_generic_strike_at_democracy1
-			prerequisite = { focus = ARI_organization }
-		x = 12
-		y = 9
-		cost = 10
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-		}
-		available = {
-
-		}
-	}
 
 	focus = {
 		id = ARI_the_border_militia_rules_the_state
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = thebordermilitiarules
 			prerequisite = { focus = ARI_the_national_guard_of_arizona }
 		x = 15
 		y = 5
@@ -1921,7 +1912,7 @@ has_country_flag = ARI_ready_or_not
 
 	focus = {
 		id = ARI_combine_them
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = combine
 			prerequisite = { focus = ARI_the_border_militia_rules_the_state }
 		x = 15
 		y = 6
@@ -1937,7 +1928,7 @@ has_country_flag = ARI_ready_or_not
 
 	focus = {
 		id = ARI_survivalism
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = survivalism
 			prerequisite = { focus = ARI_combine_them }
 		x = 15
 		y = 7
@@ -1953,7 +1944,7 @@ has_country_flag = ARI_ready_or_not
 
 	focus = {
 		id = ARI_forming_a_proper_military
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = formingapropermilitary
 			prerequisite = { focus = ARI_the_national_guard_of_arizona }
 		x = 5
 		y = 5
@@ -1969,7 +1960,7 @@ has_country_flag = ARI_ready_or_not
 
 	focus = {
 		id = ARI_focus_on
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = focusonwhatwehave
 			prerequisite = { focus = ARI_forming_a_proper_military }
 		x = 5
 		y = 6
@@ -1985,7 +1976,7 @@ has_country_flag = ARI_ready_or_not
 
 	focus = {
 		id = ARI_open_a_general_staff
-		icon = GFX_focus_generic_strike_at_democracy1
+		icon = generalstaff
 			prerequisite = { focus = ARI_focus_on }
 		x = 5
 		y = 7

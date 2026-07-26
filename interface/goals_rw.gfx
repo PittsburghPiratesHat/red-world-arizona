@@ -48,6 +48,90 @@ spriteTypes = {
 	}
 	#### OTHER ####
 	SpriteType = {
+		name = "armymodernization"
+		texturefile = "gfx/interface/goals/arizona/armymodernization.dds"
+	}
+	SpriteType = {
+		name = "backtobasics"
+		texturefile = "gfx/interface/goals/arizona/backtobasics.dds"
+	}
+	SpriteType = {
+		name = "combine"
+		texturefile = "gfx/interface/goals/arizona/combinethemilitawiththearmy.dds"
+	}
+	SpriteType = {
+		name = "desertwarfare"
+		texturefile = "gfx/interface/goals/arizona/desertwarfare.dds"
+	}
+	SpriteType = {
+		name = "dunebuggies"
+		texturefile = "gfx/interface/goals/arizona/dunebuggies.dds"
+	}
+	SpriteType = {
+		name = "survivalism"
+		texturefile = "gfx/interface/goals/arizona/focusonsurvivalism.dds"
+	}
+	SpriteType = {
+		name = "focusonwhatwehave"
+		texturefile = "gfx/interface/goals/arizona/focusonwhatwehave.dds"
+	}
+	SpriteType = {
+		name = "formingapropermilitary"
+		texturefile = "gfx/interface/goals/arizona/formingapropermilitary.dds"
+	}
+	SpriteType = {
+		name = "foreignmercs"
+		texturefile = "gfx/interface/goals/arizona/inviteforeignmercenaries.dds"
+	}
+	SpriteType = {
+		name = "legacyofthecodetalkers"
+		texturefile = "gfx/interface/goals/arizona/legacyofthenavajocodetalkers.dds"
+	}
+	SpriteType = {
+		name = "lootmuseums"
+		texturefile = "gfx/interface/goals/arizona/lootmuseums.dds"
+	}
+	SpriteType = {
+		name = "civiliangunowners"
+		texturefile = "gfx/interface/goals/arizona/massconscriptionofcivilangunowners.dds"
+	}
+	SpriteType = {
+		name = "generalstaff"
+		texturefile = "gfx/interface/goals/arizona/openageneralstaffacademy.dds"
+	}
+	SpriteType = {
+		name = "recruitmentcampaigns"
+		texturefile = "gfx/interface/goals/arizona/recruitmentcampaigns.dds"
+	}
+	SpriteType = {
+		name = "reorganizenationalguard"
+		texturefile = "gfx/interface/goals/arizona/reorganizethenationalguard.dds"
+	}
+	SpriteType = {
+		name = "seizeciviliangoods"
+		texturefile = "gfx/interface/goals/arizona/seizeciviliangoods.dds"
+	}
+	SpriteType = {
+		name = "surveyexiles"
+		texturefile = "gfx/interface/goals/arizona/surveytheexiles.dds"
+	}
+	SpriteType = {
+		name = "birth"
+		texturefile = "gfx/interface/goals/arizona/thebirthoftheproperarizonanarmy.dds"
+	}
+	SpriteType = {
+		name = "thebordermilitiarules"
+		texturefile = "gfx/interface/goals/arizona/thebordermilitiarulesthestate.dds"
+	}
+	SpriteType = {
+		name = "nationalguard"
+		texturefile = "gfx/interface/goals/arizona/thenationalguardofarizona.dds"
+	}
+	SpriteType = {
+		name = "utilizetheborder"
+		texturefile = "gfx/interface/goals/arizona/utilizetheborder.dds"
+	}
+	SpriteType = {
 		name = "teaparty"
 		texturefile = "gfx/interface/goals/arizona/Co-opttheteaparty.dds"
 	}
