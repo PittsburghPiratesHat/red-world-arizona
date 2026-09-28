@@ -54,6 +54,13 @@ create_corps_commander = {
 }
 
 create_navy_leader = {
+	name = "John McCain"
+	picture = "Portrait_ARI_John_McCain.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_navy_leader = {
 	name = "Cecil D. Haney"
 	picture = "Portrait_Cecil_D_Haney.dds"
 	traits = {  }

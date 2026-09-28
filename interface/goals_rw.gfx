@@ -48,6 +48,118 @@ spriteTypes = {
 	}
 	#### OTHER ####
 	SpriteType = {
+		name = "pragmatism"
+		texturefile = "gfx/interface/goals/arizona/pragmatism.dds"
+	}
+	SpriteType = {
+		name = "lockuplorenzo"
+		texturefile = "gfx/interface/goals/arizona/lockuplorenzo.dds"
+	}
+	SpriteType = {
+		name = "interventionistarmy"
+		texturefile = "gfx/interface/goals/arizona/interventionistarmy.dds"
+	}
+	SpriteType = {
+		name = "distancefromthecommies"
+		texturefile = "gfx/interface/goals/arizona/distancefromthecommies.dds"
+	}
+	SpriteType = {
+		name = "sinemawon"
+		texturefile = "gfx/interface/goals/arizona/sinemawon.dds"
+	}
+	SpriteType = {
+		name = "communistconcessions"
+		texturefile = "gfx/interface/goals/arizona/communistconcessions.dds"
+	}
+	SpriteType = {
+		name = "resignsinema"
+		texturefile = "gfx/interface/goals/arizona/resignsinema.dds"
+	}
+	SpriteType = {
+		name = "thecentermustdeliver"
+		texturefile = "gfx/interface/goals/arizona/thecentermustdeliver.dds"
+	}
+	SpriteType = {
+		name = "publicservices"
+		texturefile = "gfx/interface/goals/arizona/publicservices.dds"
+	}
+	SpriteType = {
+		name = "libertyacts"
+		texturefile = "gfx/interface/goals/arizona/libertyacts.dds"
+	}
+	SpriteType = {
+		name = "liberalcoalition"
+		texturefile = "gfx/interface/goals/arizona/liberalcoalition.dds"
+	}
+	SpriteType = {
+		name = "nosocialism"
+		texturefile = "gfx/interface/goals/arizona/nosocialism.dds"
+	}
+	SpriteType = {
+		name = "fairpath"
+		texturefile = "gfx/interface/goals/arizona/fairpath.dds"
+	}
+	SpriteType = {
+		name = "ecofriendly"
+		texturefile = "gfx/interface/goals/arizona/ecofriendly.dds"
+	}
+	SpriteType = {
+		name = "removeotherextremists"
+		texturefile = "gfx/interface/goals/arizona/removeotherextremists.dds"
+	}
+	SpriteType = {
+		name = "modelofdemocracy"
+		texturefile = "gfx/interface/goals/arizona/modelofdemocracy.dds"
+	}
+	SpriteType = {
+		name = "cincinattus"
+		texturefile = "gfx/interface/goals/arizona/cincinattus.dds"
+	}
+	SpriteType = {
+		name = "controltheborderpatrol"
+		texturefile = "gfx/interface/goals/arizona/controltheborderpatrol.dds"
+	}
+	SpriteType = {
+		name = "neutralizearpaio"
+		texturefile = "gfx/interface/goals/arizona/neutralizearpaio.dds"
+	}
+	SpriteType = {
+		name = "rabidanticommunism"
+		texturefile = "gfx/interface/goals/arizona/rabidanticommunism.dds"
+	}
+	SpriteType = {
+		name = "dutyabovepolitics"
+		texturefile = "gfx/interface/goals/arizona/dutyabovepolitics.dds"
+	}
+	SpriteType = {
+		name = "breadandcircus"
+		texturefile = "gfx/interface/goals/arizona/breadandcircus.dds"
+	}
+	SpriteType = {
+		name = "fullyeliminatearizonannationalism"
+		texturefile = "gfx/interface/goals/arizona/fullyeliminatearizonannationalism.dds"
+	}
+	SpriteType = {
+		name = "desertinfrastructure"
+		texturefile = "gfx/interface/goals/arizona/desertinfrastructure.dds"
+	}
+	SpriteType = {
+		name = "theoldman"
+		texturefile = "gfx/interface/goals/arizona/theoldman.dds"
+	}
+	SpriteType = {
+		name = "returntocivilianrule"
+		texturefile = "gfx/interface/goals/arizona/returntocivilianrule.dds"
+	}
+	SpriteType = {
+		name = "militaryguardianship"
+		texturefile = "gfx/interface/goals/arizona/militaryguardianship.dds"
+	}
+	SpriteType = {
+		name = "nationalservice"
+		texturefile = "gfx/interface/goals/arizona/nationalservice.dds"
+	}
+	SpriteType = {
 		name = "armymodernization"
 		texturefile = "gfx/interface/goals/arizona/armymodernization.dds"
 	}

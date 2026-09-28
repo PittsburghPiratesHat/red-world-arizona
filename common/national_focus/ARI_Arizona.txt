@@ -507,9 +507,189 @@ has_country_flag = ARI_arpaio_in_charge
 
 	focus = {
 		id = ARI_sinema_won
-		icon = GFX_goal_support_democracy
+		icon = sinemawon
 		x = 25
 		y = 7
+		cost = 10
+		available = {
+
+has_government= nationalist
+
+has_country_flag = ARI_arpaio_in_charge
+		}
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_pass_the_act
+		icon = libertyacts
+		prerequisite = { focus = ARI_the_center_must_deliver }
+		x = 27
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_the_fair_path
+		icon = fairpath
+		prerequisite = { focus = ARI_pass_the_act }
+		x = 27
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_invest_in
+		icon = ecofriendly
+		prerequisite = { focus = ARI_the_fair_path }
+		x = 27
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_the_arizona_model
+		icon = modelofdemocracy
+				prerequisite = { focus = ARI_invest_in }
+		prerequisite = { focus = ARI_remove_the_other }
+		prerequisite = { focus = ARI_an_interventionist_military }
+		x = 25
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_arizonan_public_services
+		icon = publicservices
+		prerequisite = { focus = ARI_the_center_must_deliver }
+		x = 23
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_a_liberal_coalition
+		icon = liberalcoalition
+		prerequisite = { focus = ARI_arizonan_public_services }
+		x = 23
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_an_interventionist_military
+		icon = interventionistarmy
+		prerequisite = { focus = ARI_a_liberal_coalition }
+		x = 23
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_the_center_must_deliver
+		icon = thecentermustdeliver
+		prerequisite = { focus = ARI_sinema_won }
+		x = 25
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_pragmatism_is_our_weapon
+		icon = pragmatism
+		prerequisite = { focus = ARI_the_center_must_deliver }
+		x = 25
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_without_socialism
+		icon = nosocialism
+		prerequisite = { focus = ARI_pragmatism_is_our_weapon }
+		x = 25
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_remove_the_other
+		icon = removeotherextremists
+		prerequisite = { focus = ARI_without_socialism }
+		x = 25
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_distance_from_the_commies
+		icon = distancefromthecommies
+		prerequisite = { focus = ARI_sinema_won }
+		mutually_exclusive = {
+			focus = ARI_concessions_to_the_communists
+		}
+		x = 27
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = ARI_lockup_lorenzo
+		icon = lockuplorenzo
+		prerequisite = { focus = ARI_distance_from_the_commies }
+		x = 27
+		y = 9
 		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
@@ -519,8 +699,11 @@ has_country_flag = ARI_arpaio_in_charge
 
 	focus = {
 		id = ARI_concessions_to_the_communists
-		icon = GFX_goal_support_democracy
+		icon = communistconcessions
 		prerequisite = { focus = ARI_sinema_won }
+		mutually_exclusive = {
+			focus = ARI_distance_from_the_commies
+		}
 		x = 30
 		y = 8
 		cost = 10
@@ -530,10 +713,24 @@ has_country_flag = ARI_arpaio_in_charge
 		}
 	}
 
+	focus = {
+		id = ARI_sinemas_resignation
+		icon = resignsinema
+		prerequisite = { focus = ARI_concessions_to_the_communists }
+		x = 30
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
 		#Focus for mccain
 	focus = {
 		id = ARI_cincinattus
-		icon = molossia_in_exile
+		icon = cincinattus
 		available = {
 
 has_government= monarchist
@@ -551,7 +748,7 @@ has_country_flag = ARI_baugh
 
 	focus = {
 		id = ARI_rabid_anti_communism
-		icon = campaign
+		icon = rabidanticommunism
 		prerequisite = { focus = ARI_cincinattus }
 		x = 42
 		y = 7
@@ -564,7 +761,7 @@ has_country_flag = ARI_baugh
 
 	focus = {
 		id = ARI_bread_and_circus
-		icon = campaign
+		icon = breadandcircus
 		prerequisite = { focus = ARI_rabid_anti_communism }
 		x = 42
 		y = 8
@@ -577,7 +774,7 @@ has_country_flag = ARI_baugh
 
 	focus = {
 		id = ARI_desert_infrastructure_programs
-		icon = campaign
+		icon = desertinfrastructure
 		prerequisite = { focus = ARI_bread_and_circus }
 		x = 42
 		y = 9
@@ -590,7 +787,7 @@ has_country_flag = ARI_baugh
 
 	focus = {
 		id = ARI_neutralize_arpaio
-		icon = campaign
+		icon = neutralizearpaio
 		prerequisite = { focus = ARI_cincinattus }
 		x = 40
 		y = 7
@@ -603,7 +800,7 @@ has_country_flag = ARI_baugh
 
 	focus = {
 		id = ARI_duty_above_politics
-		icon = campaign
+		icon = dutyabovepolitics
 		prerequisite = { focus = ARI_neutralize_arpaio }
 		x = 40
 		y = 8
@@ -616,7 +813,7 @@ has_country_flag = ARI_baugh
 
 	focus = {
 		id = ARI_the_old_man
-		icon = campaign
+		icon = theoldman
 		prerequisite = { focus = ARI_duty_above_politics }
 		x = 40
 		y = 9
@@ -629,7 +826,7 @@ has_country_flag = ARI_baugh
 
 	focus = {
 		id = ARI_control_the_border_control
-		icon = campaign
+		icon = controltheborderpatrol
 		prerequisite = { focus = ARI_cincinattus }
 		x = 38
 		y = 7
@@ -642,7 +839,7 @@ has_country_flag = ARI_baugh
 
 	focus = {
 		id = ARI_national_service
-		icon = campaign
+		icon = nationalservice
 		prerequisite = { focus = ARI_control_the_border_control }
 		x = 38
 		y = 8
@@ -655,7 +852,7 @@ has_country_flag = ARI_baugh
 
 	focus = {
 		id = ARI_fully_eliminate_arizonan_nationalism
-		icon = campaign
+		icon = fullyeliminatearizonannationalism
 		prerequisite = { focus = ARI_national_service }
 		x = 38
 		y = 9
@@ -668,8 +865,13 @@ has_country_flag = ARI_baugh
 
 	focus = {
 		id = ARI_return_to_civilian_rule
-		icon = campaign
-		prerequisite = { focus = ARI_national_service }
+		icon = returntocivilianrule
+		prerequisite = { focus = ARI_the_old_man }
+		prerequisite = { focus = ARI_desert_infrastructure_programs }
+		prerequisite = { focus = ARI_fully_eliminate_arizonan_nationalism }
+		mutually_exclusive = {
+			focus = ARI_military_guardianship
+		}
 		x = 39
 		y = 10
 		cost = 10
@@ -681,8 +883,13 @@ has_country_flag = ARI_baugh
 
 	focus = {
 		id = ARI_military_guardianship
-		icon = campaign
-		prerequisite = { focus = ARI_national_service }
+		icon = militaryguardianship
+		prerequisite = { focus = ARI_the_old_man }
+		prerequisite = { focus = ARI_desert_infrastructure_programs }
+		prerequisite = { focus = ARI_fully_eliminate_arizonan_nationalism }
+		mutually_exclusive = {
+			focus = ARI_return_to_civilian_rule
+		}
 		x = 41
 		y = 10
 		cost = 10

@@ -238,6 +238,25 @@ characters={
 			legacy_id=-1
 		}
 	}
+	ARI_John_McCain={
+		name="John McCain"
+		portraits={
+			army={
+				small="gfx/interface/ideas/advisors/europe/european_advisor11.dds"
+			}
+			army={
+				large="gfx/leaders/ARI/Portrait_ARI_John_McCain.dds"
+			}
+		}
+		navy_leader={
+			skill=4
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
 	ARI_cecil_d._haney={
 		name="Cecil D. Haney"
 		portraits={

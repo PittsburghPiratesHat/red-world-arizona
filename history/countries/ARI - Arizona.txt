@@ -99,6 +99,8 @@ set_popularities = {
 		communist = 20
 }
 
+
+
 create_country_leader = {
 	name = "Jason Todd Ready"
 	picture = "Portrait_ARI_Jason_Todd_Ready.dds"

@@ -239,8 +239,16 @@ country_event = {
 	option = {
 		name = redworldarizona.6.a
 		ai_chance = { factor = 1}
-		kill_ideology_leader = communist 
+		set_politics = {
+	        ruling_party = fascist
+	        elections_allowed = no
+        }
 kill_ideology_leader = liberal
+set_party_name = {
+        ideology = fascist
+        long_name = ARI_fascist_party_long
+        name = ARI_fascist_party
+}
 	}
 }
 ##Event: The bloodbath averted
@@ -256,5 +264,28 @@ country_event = {
 		name = redworldarizona.7.a
 		ai_chance = { factor = 1}
 		kill_ideology_leader = fascist
+	}
+}
+	country_event = {
+	id = redworldarizona.8
+	title = redworldarizona.8.title
+	desc = redworldarizona.8.desc
+	picture = #
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = redworldarizona.8.a
+		ai_chance = { factor = 1}
+		set_politics = {
+	        ruling_party = nationalist
+	        elections_allowed = no
+        }
+		kill_ideology_leader = national_conservative
+		retire_country_leader = yes
+		create_country_leader = {
+	name = "John McCain"
+	picture = "Portrait_ARI_John_McCain.dds"
+	ideology = military_junta
 	}
 }
