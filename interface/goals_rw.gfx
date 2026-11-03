@@ -48,6 +48,54 @@ spriteTypes = {
 	}
 	#### OTHER ####
 	SpriteType = {
+		name = "babies"
+		texturefile = "gfx/interface/goals/hawaii/babiescrying.dds"
+	}
+	SpriteType = {
+		name = "bluebirds"
+		texturefile = "gfx/interface/goals/hawaii/bluebirdsfly.dds"
+	}
+	SpriteType = {
+		name = "colors"
+		texturefile = "gfx/interface/goals/hawaii/colorsoftherainbow.dds"
+	}
+	SpriteType = {
+		name = "dare"
+		texturefile = "gfx/interface/goals/hawaii/dreamsthatyoudareto.dds"
+	}
+	SpriteType = {
+		name = "dreamof"
+		texturefile = "gfx/interface/goals/hawaii/dreamsthatyoudreamof.dds"
+	}
+	SpriteType = {
+		name = "shakinghands"
+		texturefile = "gfx/interface/goals/hawaii/shakinghands.dds"
+	}
+	SpriteType = {
+		name = "skies"
+		texturefile = "gfx/interface/goals/hawaii/skiesofblue.dds"
+	}
+	SpriteType = {
+		name = "somewhereovertherainbow"
+		texturefile = "gfx/interface/goals/hawaii/somewhereovertherainbow.dds"
+	}
+	SpriteType = {
+		name = "treesofgreen"
+		texturefile = "gfx/interface/goals/hawaii/treesofgreen.dds"
+	}
+	SpriteType = {
+		name = "wayuphigh"
+		texturefile = "gfx/interface/goals/hawaii/wayuphigh.dds"
+	}
+	SpriteType = {
+		name = "whatawonderfulworld"
+		texturefile = "gfx/interface/goals/hawaii/whatawonderfulworld.dds"
+	}
+	SpriteType = {
+		name = "wheretroublemelts"
+		texturefile = "gfx/interface/goals/hawaii/wheretroublemelts.dds"
+	}
+	SpriteType = {
 		name = "pragmatism"
 		texturefile = "gfx/interface/goals/arizona/pragmatism.dds"
 	}

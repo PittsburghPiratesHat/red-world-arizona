@@ -555,6 +555,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_ideology_hawaiian_revsoc"
+		texturefile = "gfx/interface/ideologies/hawaiian_revsoc.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ideology_arpaio_nationalism"
 		texturefile = "gfx/interface/ideologies/joe_arpaio_thought.dds"
 	}

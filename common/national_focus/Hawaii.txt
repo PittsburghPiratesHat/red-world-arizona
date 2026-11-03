@@ -1,0 +1,268 @@
+focus_tree = {
+	id = Hawaii
+	country = {
+		factor = 0
+		modifier = {
+			add = 15
+			tag = HAW
+		}
+	}
+
+	continuous_focus_position = { x = 7000 y = 7000 }
+	#Focus for the hawaiian soverignty movement
+	focus = {
+		id = HAW_soverignty
+		icon = end
+		x = 60
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+}
+		}
+
+			focus = {
+		id = HAW_iz_lives
+		icon = somewhereovertherainbow
+		x = 45
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = HAW_soverignty
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+}
+		}
+
+		focus = {
+		id = HAW_where
+		icon = wheretroublemelts
+		x = 43
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = HAW_iz_lives
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+}
+		}
+
+		focus = {
+		id = HAW_bluebirds
+		icon = bluebirds
+		x = 43
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = HAW_where
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+}
+		}
+
+		focus = {
+		id = HAW_colors
+		icon = colors
+		x = 43
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = HAW_bluebirds
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+}
+		}
+
+		focus = {
+		id = HAW_friends
+		icon = shakinghands
+		x = 47
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = HAW_iz_lives
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+}
+		}
+
+		focus = {
+		id = HAW_babies
+		icon = babies
+		x = 47
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = HAW_friends
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+}
+		}
+
+		focus = {
+		id = HAW_trees
+		icon = treesofgreen
+		x = 47
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = HAW_babies
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+}
+		}
+
+		focus = {
+		id = HAW_what
+		icon = whatawonderfulworld
+		x = 45
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = HAW_soverignty
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+}
+		}
+
+		focus = {
+		id = HAW_way
+		icon = wayuphigh
+		x = 45
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = HAW_what
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+}
+		}
+
+		focus = {
+		id = HAW_and_the
+		icon = dreamof
+		x = 45
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = HAW_way
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+}
+		}
+
+		focus = {
+		id = HAW_dare
+		icon = dare
+		x = 44
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = HAW_trees
+		}
+		prerequisite = { 
+			focus = HAW_and_the
+		}
+		prerequisite = { 
+			focus = HAW_colors
+		}
+		mutually_exclusive = {
+			focus = HAW_skies
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+}
+		}
+
+		focus = {
+		id = HAW_skies
+		icon = skies
+		x = 46
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = HAW_trees
+		}
+		prerequisite = { 
+			focus = HAW_and_the
+		}
+		prerequisite = { 
+			focus = HAW_colors
+		}
+		mutually_exclusive = {
+			focus = HAW_dare
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+}
+		}
+
+		focus = {
+		id = HAW_trask
+		icon = end
+		x = 75
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = HAW_soverignty
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+}
+		}
+
+
+	}
+

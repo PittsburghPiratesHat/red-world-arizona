@@ -91,6 +91,10 @@ defined_text = {
 		localization_key = arpaio_nationalism
 	}
 	text = {
+		trigger = { has_country_leader_ideology = hawaiian_revsoc }
+		localization_key = hawaiian_revsoc
+	}
+	text = {
 		trigger = { has_country_leader_ideology = american_nationalist }
 		localization_key = american_nationalist
 	}

@@ -101,69 +101,23 @@ set_popularities = {
 
 
 
-create_country_leader = {
-	name = "Jason Todd Ready"
-	picture = "Portrait_ARI_Jason_Todd_Ready.dds"
-	ideology = national_socialist
-}
-
-create_country_leader = {
-	name = "Joe Arpaio"
-	picture = "Portrait_ARI_Joe_Arpaio.dds"
-	ideology = arpaio_nationalism
-}
-
-create_country_leader = {
-	name = "Kevin Baugh"
-	picture = "Portrait_ARI_Kevin_Baugh.dds"
-	ideology = absolute_monarchist
-}
-
-create_country_leader = {
-	name = "Aron Ra"
-	picture = "Portrait_ARI_Aron_Ra.dds"
-	ideology = national_bolshevik_ideology
-}
-
-create_country_leader = {
-	name = "JD Hayworth"
-	picture = "Portrait_ARI_JD_Hayworth.dds"
-	ideology = american_conservative
-}
-
-create_country_leader = {
-	name = "Craig Columbus"
-	picture = "Portrait_ARI_Craig_Columbus.dds"
-	ideology = liberal_conservative
-}
-
-create_country_leader = {
-	name = "Harry Mitchell"
-	desc = "POLITICS_HARRY_MITCHELL_DESC"
-	picture = "Portrait_ARI_Harry_Mitchell.dds"
-	ideology = old_american_democrats
-}
-
-create_country_leader = {
-	name = "Kyrsten Sinema"
-	picture = "Portrait_ARI_Kyrsten_Sinema.dds"
-	ideology = new_democrat_ideology
-}
-
-create_country_leader = {
-	name = "Raul Grivalja"
-	picture = "Portrait_ARI_Raul_Grivalja.dds"
-	ideology = progressive
-}
-
-create_country_leader = {
-	name = "James McLaughlin"
-	picture = "Portrait_ARI_James_McLaughlin.dds"
-	ideology = syndicalism
-}
-
-create_country_leader = {
-	name = "Lorenzo Torrez"
-	picture = "Portrait_ARI_Lorenzo_Torrez.dds"
-	ideology = chicano_thought
-}
+recruit_character = ARI_jason_todd_ready
+recruit_character = ARI_joe_arpaio
+recruit_character = ARI_kevin_baugh
+recruit_character = ARI_aron_ra
+recruit_character = ARI_jd_hayworth
+recruit_character = ARI_craig_columbus
+recruit_character = ARI_harry_mitchell
+recruit_character = ARI_kyrsten_sinema
+recruit_character = ARI_raul_grivalja
+recruit_character = ARI_james_mclaughlin
+recruit_character = ARI_lorenzo_torrez
+recruit_character = ARI_richard_a._cody
+recruit_character = ARI_anthony_c._funkhouser
+recruit_character = ARI_teddy_kleisner
+recruit_character = ARI_john_m._custer_iii
+recruit_character = ARI_kirk_e._gibbs
+recruit_character = ARI_thad_allen
+recruit_character = ARI_John_McCain
+recruit_character = ARI_cecil_d._haney
+recruit_character = ARI_mark_e._ferguson_iii
